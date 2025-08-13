@@ -1,0 +1,267 @@
+{
+  "id": "r",
+  "type": "group",
+  "label": "r",
+  "children": [
+    {
+      "id": "root",
+      "type": "group",
+      "label": "Layers",
+      "children": [
+        {
+          "id": "gyKKZbcLtg5A9taA",
+          "type": "group",
+          "label": "Administrative Boundary",
+          "children": [
+            {
+              "id": "XELF5tak6bNqABh3",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Village",
+              "visible": true,
+              "paramLayers": "VillageIndia",
+              "cql": "st_2011 = '07'",
+              "maxResolution": 256
+            },
+            {
+              "id": "h3zAz1DNrDWumDFt",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Taluka",
+              "visible": true,
+              "paramLayers": "TalukaIndia",
+              "cql": "stcode11 = '07'",
+              "maxResolution": 1024
+            },
+            {
+              "id": "qkmedTlw6t4Mw1th",
+              "url": "wms120",
+              "type": "layer",
+              "label": "District",
+              "visible": true,
+              "cql": "stcode11 = '07'",
+              "paramLayers": "DistrictIndia",
+              "maxResolution": 2048
+            },
+            {
+              "id": "NsJdMT58FzTLTp5n",
+              "url": "wms120",
+              "type": "layer",
+              "label": "State",
+              "visible": true,
+              "cql": "state_lgcode = '7'",
+              "paramLayers": "StateIndia"
+            }
+          ]
+        },
+        {
+          "id": "gyKKZbcLtg5hfduhd",
+          "type": "group",
+          "label": "Base Layers",
+          "children": [
+            {
+              "id": "XELF5tak6bNqAghgcujr",
+              "url": "wms120",
+              "type": "layer",
+              "label": "State Highway",
+              "visible": false,
+              "styles":"india_roads_type_f_SH",
+              "cql": "type_f='SH'",
+              "paramLayers": "india_roads"
+            },
+            {
+              "id": "XELF5tak6bNqAghgcrhu",
+              "url": "wms120",
+              "type": "layer",
+              "label": " All Road",
+              "visible": false,
+              "paramLayers": "india_roads"
+            },
+            {
+              "id": "XELF5tak6bNqAghgcthd",
+              "url": "wms120",
+              "type": "layer",
+              "label": "National Highway Updated",
+              "visible": false,
+              "styles":"india_roads_type_f_NH",
+               "cql": "type_f='NH'",
+              "paramLayers": "india_roads"
+            },
+             {
+              "id": "XELF5tak6bNqAghgcsgt",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Rivers",
+              "visible": false,
+              "paramLayers": "india_river_webservice"
+            },
+             {
+              "id": "XELF5tak6bNqAghgcsgt",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Railway Line",
+              "visible": false,
+              "paramLayers": "railway_track"
+            },
+             {
+              "id": "XELF5tak6bNqAghgcugs",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Railway Stations (Point)",
+              "visible": false,
+              "paramLayers": "railway_station"
+            },
+             {
+              "id": "XELF5tak6bNqAghgckhs",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Existing Airport",
+              "visible": false,
+              "paramLayers": "existing_airport_moca"
+            },
+             {
+              "id": "XELF5tak6bNqAghgcsfg",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Waterbody",
+              "visible": false,
+              "paramLayers": "warries_waterbody"
+            },
+             {
+              "id": "XELF5tak6bNqAghgcyjh",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Monument",
+              "visible": false,
+              "paramLayers": "monument_final_tbl"
+            },
+             {
+              "id": "XELF5tak6bNqAghgcyhf",
+              "url": "wms120",
+              "type": "layer",
+              "label": "National Park and Sanctuary",
+              "visible": false,
+              "paramLayers": "india_sanctuary_nationalpark_final"
+            },
+            {
+              "id": "XELF5tak6bNqAghgcokh",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Forest",
+              "visible": false,
+              "paramLayers": "forest_india"
+            },
+            {
+              "id": "XELF5tak6bNqAghgcyhr",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Eco Sensitive Zone India",
+              "visible": false,
+              "paramLayers": "esz_india"
+            },
+            {
+              "id": "XELF5tak6bNqAghgcujg",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Drainage",
+              "visible": false,
+              "paramLayers": "drainage_edrs_mord"
+            }
+            
+          ]
+        },
+        {
+          "id": "gyKKZbcLtg5hfdghf",
+          "type": "group",
+          "label": "Registration Property",
+          "children": [
+            {
+              "id": "XELF5tak6bNqAghgchfc",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Registration Property",
+              "visible": true,
+              "paramLayers": "property_registration_master"
+            }
+          ]
+        },
+        {
+          "id": "gyKKZbcLtg5hfdghf",
+          "type": "group",
+          "label": "Birth Registration Data",
+          "children": [
+            {
+              "id": "XELF5tak6bNqAghgchrf",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Hospital Birth",
+              "visible": false,
+              "paramLayers": "birth_certificate_view_by_hospitals"
+            },
+            {
+              "id": "XELF5tak6bNqAagdchrf",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Home Birth",
+              "visible": false,
+              "cql": "place_of_birth_id = '2'",
+              "styles":"birth_view_style_by_home",
+              "paramLayers": "birth_certificate_view_by_home"
+            },
+            {
+              "id": "XELF5tak6bNqAhjuchrf",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Other Place Birth",
+              "visible": false,
+              "cql": "place_of_birth_id = '3'",
+              "styles":"birth_view_style_by_others",
+              "paramLayers": "birth_certificate_view_by_home"
+            },
+            {
+              "id": "XELF5tak6bNqDgtdchrf",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Still Birth",
+              "visible": false,
+               "cql": "birth_type = 'Still Birth'",
+               "styles":"birth_view_style_by_stillbirth",
+              "paramLayers": "birth_certificate_view_by_home"
+            }
+           
+          ]
+        },
+        {
+          "id": "gyKKZbcLtg5hfdghf",
+          "type": "group",
+          "label": "Death Registration Data",
+          "children": [
+            {
+              "id": "XELF5tak6bNqAghgcyju",
+              "url": "wms120",
+              "type": "layer",
+              "label": "Death Registration Data",
+              "visible": false,
+              "paramLayers": "death_reg_details_view"
+            }
+          ]
+        },
+            {
+          "id": "gyKKZbcLtg5hfdghf",
+          "type": "group",
+          "label": "NDDN",
+          "children": [
+            {
+              "id": "XELF5tak6bNqAghgchrj",
+              "url": "wms120",
+              "type": "layer",
+              "label": "NDMC Digital Door Number Details",
+              "visible": false,
+              "paramLayers": "nddn_view"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

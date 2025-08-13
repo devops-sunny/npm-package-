@@ -1,0 +1,47 @@
+{
+  "name": "Bisag-Map",
+  "version": "1.0.0",
+  "description": "A GIS map package with Fetchar integration for fetching and visualizing geographic data.",
+  "main": "dist/Bisag-Map.umd.cjs",
+  "module": "dist/Bisag-Map.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --project tsconfig.build.json && vite build",
+    "preview": "vite preview",
+    "publish:npm": "npm run build && npm publish --access public"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  },
+  "author": "Dhrupad Patel",
+  "license": "MIT",
+  "keywords": [
+    "Fetchar",
+    "gis",
+    "map",
+    "mapping",
+    "geospatial",
+    "react",
+    "typescript",
+    "vite"
+  ],
+  "dependencies": {
+    "ol": "^10.6.1",
+    "ol-ext": "^4.0.33",
+    "react-complex-tree": "^2.6.0",
+    "react-icons": "^5.5.0"
+  }
+}
